@@ -1,7 +1,5 @@
 def square_array(array)
-  idx = 0
-  array.each do |num|
-    array[idx] = num**2
-    idx += 1
-  end
+  puts array.collect { |x| x **2 }
 end
+
+square_array([1,2,3])
