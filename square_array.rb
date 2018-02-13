@@ -1,6 +1,6 @@
 def square_array(array)
   idx = 0
-  puts array.each do |x|
+  array.each do |x|
     array[idx] = x**2 
     idx += 1
   end
